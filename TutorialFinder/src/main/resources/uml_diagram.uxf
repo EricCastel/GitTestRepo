@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>340</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>com.hicron.action::TutorialAction
+--
+-bestTutorialsSite: String
+-language: String
+--
++getLanguage(): String
++setLanguage(String language): void
++getBestTutorialsSite(): String
++setBestTutorialsSite(String bestTutorialsSite): void
++execute(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>240</y>
+      <w>300</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>com.hicron.service::TutorialFinderService
+--
+--
++getBestTutorialsSite(String language): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
